@@ -1,0 +1,8 @@
+<tr class='activity-row' data-activity-id="<%= activity.id %> ">
+  <td><%= activity.type %></td>
+  <td><input type='date' class='date' value="<%= Time.now.strftime('%Y-%m-%d') %>"></td>
+  <td><input type='number' class='duration'/></td>
+  <td><textarea class='description'></textarea></td>
+</tr>
+
+<input type='hidden' class="week-id" value="<%= activity.week_id %>" />

@@ -1,0 +1,19 @@
+<h1>Complete Activities for Week</h1>
+<% activities_complete.each do |activity|  %>
+  <%= activity.type %>
+  <%= activity.date %>
+  <%= activity.duration %>
+  <%= activity.description %>
+  <br>
+  <br>
+<% end %>
+
+<h1>Non-Complete Activities for Week</h1>
+<% activities_not_complete.each do |activity|  %>
+  <input class="activity-check" data-activity-id="<%= activity.id %>" type="checkbox">
+  <span class="activity-type-text">
+    <%= activity.type %>
+  </span>
+  <br>
+  <br>
+<% end %>

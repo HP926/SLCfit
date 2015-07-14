@@ -27,8 +27,8 @@ class GoalsController < ApplicationController
     @goal = current_user.goals.new(goal_params)
     if @goal.save
         @goal.time_frame.times do
-          x = @goal.weeks.new
-          x.save
+          week = @goal.weeks.new
+          week.save
         end
       flash[:notice] = "Your goal was successfully created!"
       redirect_to(goals_path)

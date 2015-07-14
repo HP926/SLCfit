@@ -1,3 +1,2 @@
 class Hiking < Activity
-
 end
