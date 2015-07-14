@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_86a0b544",
+        "filename": "app/assets/stylesheets/welcome.scss",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1005714
+      },
+      "writtenOn": "2015-07-14T20:28:42Z",
+      "side": 1,
+      "message": "looks good",
+      "revId": "715df0f9a59fc572a6fbbb00afe770b82b43de7c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
